@@ -8,7 +8,7 @@ require('dotenv').config();
 
 app.use(express.json());
 app.use(cors({
-    origin: 'https://https://rubbish-task.vercel.app/'
+    origin: '*'
 }));
 
 app.use("/api", route);
